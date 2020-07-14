@@ -1,0 +1,123 @@
+1. Create new empty graph
+2. Create random graph
+3. Read a graph from a text file
+4. Exit
+Make your choice: 2
+Number of vertices: 10
+Number of edges: 15
+1. Add vertex
+2. Remove vertex
+3. Add/modify an edge
+4. Remove an edge
+5. Get the in degree of a vertex
+6. Get the out degree of a vertex
+7. Parse the set of inbound edges of a vertex
+8. Parse the set of outbound edges of a vertex
+9. Get the cost of an edge
+10. Write the graph to a text file
+11. Print graph to console
+12. Exit
+
+Make your choice: 11
+#print graph
+
+10 15
+
+0 5 11929
+
+0 2 84198
+
+1 0 34260
+
+1 6 46879
+
+1 9 16004
+
+2 9 53277
+
+2 2 24903
+
+3 3 39829
+
+4 has no outbound edges
+
+5 9 59148
+
+5 2 35943
+
+5 6 128
+
+6 2 42031
+
+7 9 8327
+
+8 9 47805
+
+8 4 67904
+
+9 has no outbound edges
+
+
+Make your choice: 7
+#inbound edges of vertex 4
+Vertex: 4
+Inbound edges of vertex 4:
+8 4, cost: 67904
+
+
+Make your choice: 8
+#outbound edges of vertex 4
+Vertex: 4
+Outbound edges of vertex 4:
+
+1. Add vertex
+2. Remove vertex
+3. Add/modify an edge
+4. Remove an edge
+5. Get the in degree of a vertex
+6. Get the out degree of a vertex
+7. Parse the set of inbound edges of a vertex
+8. Parse the set of outbound edges of a vertex
+9. Get the cost of an edge
+10. Write the graph to a text file
+11. Print graph to console
+12. Exit
+Make your choice: 2
+#remove vertex 2
+Vertex: 4
+Vertex successfully removed
+
+
+Make your choice: 11
+#print graph
+9 14
+
+3 3 39829
+
+0 4 11929
+
+0 2 84198
+
+1 0 34260
+
+1 5 46879
+
+1 8 16004
+
+2 8 53277
+
+2 2 24903
+
+4 8 59148
+
+4 2 35943
+
+4 5 128
+
+5 2 42031
+
+6 8 8327
+
+7 8 47805
+
+8 has no outbound edges
